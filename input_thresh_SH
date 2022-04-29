@@ -1,0 +1,9 @@
+-60.0   ! -60.0 Min latitude for output window
+5.0     ! 5.0 Max latitude for output window
+20.0    ! 20.0 Min longitude for output window
+350.0   ! 350.0 Max longitude for output window
+3       ! Number of smoothing operations for windshear
+False   ! Write threshold array to NetCDF file if TRUE 
+True    ! Write lat/lon of thrsh=1.0 locations if TRUE
+1        ! Number of threshld combinations
+50.0, 40.0, 70.0, 50.0, 25.0, 10.0,      ! 850 OWZ, 500 OWZ, 950RH, 700 RH, 850-200 shear, SH 950

@@ -1,0 +1,15 @@
+1.0      !dlon = Longitude increment (degrees)
+1.0      !dlat = Latitude increment (degrees)
+12.0      !dtim = Time increment (hours)
+2        !e_min= Minimum number of neighbouring events for a clump to be considered
+5        !TC_min= Minimum number of True links before TC declared
+2        !sea_min= Minimum number of sea points to make a land influenced clump True
+0.09     !land_lim= Topography value above which grid point is considered land (m)
+550.0    !srch_rad= Search factor to determine links in CT strings (km)
+550.0    !clmp_rad= Clump radius, distance in which two clumps are to be combined
+60.0     !TH_OWZ850 = Overiding thresholds
+50.0     !TH_OWZ500
+85.0     !TH_rh950
+70.0     !TH_rh700
+12.5     !TH_wsh
+14.0     !TH_sh950
